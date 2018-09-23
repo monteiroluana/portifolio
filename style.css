@@ -170,7 +170,7 @@ ul{
 /*Projetos/Hobbies/Formulário*/
 
 .container-fluid3{
-	height:70%;
+	height:auto;
 	background-color:#dbdcdd;
 	margin-top:2%;
 }
@@ -181,6 +181,7 @@ ul{
 background-color:;
 height:40%;
 margin-top:5%;
+margin-bottom:10%;
 }
 
 
@@ -207,6 +208,7 @@ text-decoration:none;
 }
 
 a{color:white;}
+
 
 /**/
 
