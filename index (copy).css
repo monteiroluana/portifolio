@@ -1,0 +1,43 @@
+html, body {margin:0; padding:0; height:100%;}
+
+nav{text-transform:uppercase;letter-spacing:0.63em;font-size:0.75em; position: fixed; box-shadow:0px 2px 0px rgba(0,0,0,0.1);background-color: white}
+nav ul li{display:inline-block;margin-right:40px;margin-top: 15px;}
+nav ul li a{letter-spacing:2px;color:#000;-webkit-transition:color .2s ease;-o-transition:color .2s ease;transition:color .2s ease;padding:3px 0;margin-bottom:10px;position:relative;display:inline-block;}     
+
+.text-uppercase{letter-spacing:0.20em;}
+
+header{
+    height:100%;
+	background: url(https://scontent.fcgh14-1.fna.fbcdn.net/v/t1.0-9/1463005_599763740060061_791950619_n.jpg?_nc_cat=106&_nc_ht=scontent.fcgh14-1.fna&oh=12db62c2fa202e07cd8062c68e24968a&oe=5D38BD9F) 
+	no-repeat center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+hr {max-width: 200px;border-width: 3px;border-color: #F05F40;}
+hr.light {border-color: #fff;}
+
+#icons-init{margin-top:10%; margin-bottom:10%;}
+#icons-init i{font-size: 37px;color:#313133}
+#icons-init a{padding:10px}
+
+span i {font-size: 80px;}
+
+/* .formacao{ height:100%; background-color: #f47155} */
+.formacao{ height:100vh; background-color: #e2e2e2}
+.formacao #formacao{height:100vh;font-family: 'Roboto', sans-serif;background-color: #4286f4}
+.formacao #experiencias{height:100vh;font-family: 'Roboto', sans-serif;}
+.formacao .container .row .mx-auto h2{margin-top:150px}
+.formacao .section-heading{text-transform:uppercase;letter-spacing:0.35em;font-size:1.25em;}
+
+.skills{ height:70vh;}
+.skills .container-fluid .row .mx-auto h2{margin-top:150px}
+.skills .section-heading{text-transform:uppercase;letter-spacing:0.48em;font-size:1.25em;}
+
+.icons-skills span i {font-size: 70px;letter-spacing:0.40em;}
+
+footer{height: 50vh; background-color: #3f4042}
+
+.apr{text-transform:uppercase;letter-spacing:0.40em;font-size:0.75em;}
