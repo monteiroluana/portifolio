@@ -26,13 +26,13 @@ hr.light {border-color: #fff;}
 span i {font-size: 80px;}
 
 /* .formacao{ height:100%; background-color: #f47155} */
-.formacao{ height:100vh; background-color: #e2e2e2}
-.formacao #formacao{height:100vh;font-family: 'Roboto', sans-serif;background-color: #4286f4}
-.formacao #experiencias{height:100vh;font-family: 'Roboto', sans-serif;}
-.formacao .container .row .mx-auto h2{margin-top:150px}
+.formacao{ height:auto; background-color: #ffffff}
+.formacao #formacao{height:90vh;font-family: 'Roboto', sans-serif;/*background-color: #4286f4*/}
+.formacao #experiencias{height:90vh;font-family: 'Roboto', sans-serif;}
+.formacao .container-fluid .row .mx-auto h2{margin-top:150px}
 .formacao .section-heading{text-transform:uppercase;letter-spacing:0.35em;font-size:1.25em;}
 
-.skills{ height:70vh;}
+.skills{ height:70vh;background-color: #f47155}
 .skills .container-fluid .row .mx-auto h2{margin-top:150px}
 .skills .section-heading{text-transform:uppercase;letter-spacing:0.48em;font-size:1.25em;}
 
