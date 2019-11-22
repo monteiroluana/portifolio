@@ -1,43 +1,53 @@
+/* 
+    align-items: center; Vertical center alignment 
+    justify-content: center; Horizontal center alignment
+    
+    
+    #F05F40; height:70vh
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Cabin Sketch', cursive;
+*/
 html, body {margin:0; padding:0; height:100%;}
 
-nav{text-transform:uppercase;letter-spacing:0.63em;font-size:0.75em; position: fixed; box-shadow:0px 2px 0px rgba(0,0,0,0.1);background-color: white}
+/* ### NAV ###*/
+nav{text-transform:uppercase;letter-spacing:0.63em;font-size:0.75em; position: fixed; box-shadow:0px 2px 0px rgba(0,0,0,0.1);background-color: white; font-family: 'Comfortaa', cursive; }
 nav ul li{display:inline-block;margin-right:40px;margin-top: 15px;}
 nav ul li a{letter-spacing:2px;color:#000;-webkit-transition:color .2s ease;-o-transition:color .2s ease;transition:color .2s ease;padding:3px 0;margin-bottom:10px;position:relative;display:inline-block;}     
 
-.text-uppercase{letter-spacing:0.20em;}
+/* ### ABOU ME ###*/
+.whoim{background: #1CA372;height:auto; color:white; }
+.whoim h1{font-family: 'Cabin Sketch', cursive; font-size:4em}
+.whoim .container-fluid{height:70vh; display:flex; align-items: center; justify-content: center; text-align: center;}
+.whoim .container-fluid .text-uppercase{letter-spacing:0.20em;}
 
-header{
-    height:100%;
-	background: url(https://scontent.fcgh14-1.fna.fbcdn.net/v/t1.0-9/1463005_599763740060061_791950619_n.jpg?_nc_cat=106&_nc_ht=scontent.fcgh14-1.fna&oh=12db62c2fa202e07cd8062c68e24968a&oe=5D38BD9F) 
-	no-repeat center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-hr {max-width: 200px;border-width: 3px;border-color: #F05F40;}
-hr.light {border-color: #fff;}
-
-#icons-init{margin-top:10%; margin-bottom:10%;}
-#icons-init i{font-size: 37px;color:#313133}
+#icons-init{margin-top:3em;}
+#icons-init i{font-size: 2em;color:#313133}
 #icons-init a{padding:10px}
 
-span i {font-size: 80px;}
+.carousel-item{min-height: 4em;margin-top:2em}
 
-/* .formacao{ height:100%; background-color: #f47155} */
-.formacao{ height:auto; background-color: #ffffff}
-.formacao #formacao{height:90vh;font-family: 'Roboto', sans-serif;/*background-color: #4286f4*/}
-.formacao #experiencias{height:90vh;font-family: 'Roboto', sans-serif;}
-.formacao .container-fluid .row .mx-auto h2{margin-top:150px}
-.formacao .section-heading{text-transform:uppercase;letter-spacing:0.35em;font-size:1.25em;}
 
-.skills{ height:70vh;background-color: #f47155}
-.skills .container-fluid .row .mx-auto h2{margin-top:150px}
+
+/* ### EXPERIENCES ###*/
+.experiences{ height:auto;}
+.experiences .section-heading{text-transform:uppercase;letter-spacing:0.35em;font-size:1.25em;}
+.experiences .title{display: flex; align-items: center; justify-content: center; }
+.experiences .text{text-transform:uppercase;letter-spacing:0.20em; }
+.experiences .text.formation{min-height: 23em; text-align: left; display:flex; align-items: center;}
+.experiences .text.jobs{min-height: 35em; display:flex; align-items: center; justify-content: flex-end; text-align: right;}
+/* .experiences #formation{box-shadow:0px 2px 0px #f47155;}
+.experiences #jobs{box-shadow:0px 2px 0px #f47155;} */
+
+
+
+/* ### SKILLS  ###*/
+.skills{ height:30vh;background-color:  #f47155;}
+.skills .container-fluid .row .mx-auto h2{margin-top:3em}
 .skills .section-heading{text-transform:uppercase;letter-spacing:0.48em;font-size:1.25em;}
-
 .icons-skills span i {font-size: 70px;letter-spacing:0.40em;}
 
-footer{height: 50vh; background-color: #3f4042}
 
+footer{height: 50vh; background-color: #3f4042}
 .apr{text-transform:uppercase;letter-spacing:0.40em;font-size:0.75em;}

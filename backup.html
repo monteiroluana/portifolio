@@ -50,10 +50,10 @@
 		<div class="container-fluid my-auto">
 			<div class="row">
 				<div class="col-md-11 mx-auto">
-					<!-- <h4 class="text-uppercase">
+					<h4 class="text-uppercase">
 						Luana Monteiro Pereira
 					</h4>
-					<hr> -->
+					<hr>
 				</div>
 				<div class="col-md-11 mx-auto">
 					<p class="text-faded mb-5 apr">Maecenas sed tempor tortor.<br> Cras auctor nunc justo. Morbi dapibus, <br>purus eu rhoncus
@@ -199,57 +199,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	
-	<!--FIREBASE-->
-	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
 
-	<script>
-	firebase.initializeApp({
-	  apiKey: 'AIzaSyCbXcaLX26XwkArp7pphMbwxbkzHhxysuc',
-	  authDomain: 'first-project-e7dfe.firebaseapp.com',
-	  databaseURL: 'https://first-project-e7dfe.firebaseio.com/',
-	  storageBucket: 'gs://first-project-e7dfe.appspot.com',
-	  projectId: 'first-project-e7dfe'
-	});
-	// Initialize Cloud Firestore through Firebase
-	var db = firebase.firestore();
-// 	db.collection("users").add({
-// 	    first: "Ada",
-// 	    last: "Lovelace",
-// 	    born: 1815
-// 	})
-// 	.then(function(docRef) {
-// 	    console.log("Document written with ID: ", docRef.id);
-// 	})
-// 	.catch(function(error) {
-// 	    console.error("Error adding document: ", error);
-// 	});
-
-
-// 	// Add a second document with a generated ID.
-// 	db.collection("users").add({
-// 	    first: "Alan",
-// 	    middle: "Mathison",
-// 	    last: "Turing",
-// 	    born: 1912
-// 	})
-// 	.then(function(docRef) {
-// 	    console.log("Document written with ID: ", docRef.id);
-// 	})
-// 	.catch(function(error) {
-// 	    console.error("Error adding document: ", error);
-// 	});
-
-
-	db.collection("users").get().then((querySnapshot) => {
-	    querySnapshot.forEach((doc) => {
-		console.log(`${doc.id} => JSON.parse(${doc.data()})`);
-	    });
-	});
-	</script>
-	
-	</head>
 
 </body>
 
